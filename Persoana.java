@@ -1,9 +1,10 @@
-package proiect_pao;
+package proiect.pao;
 
-public class Persoana{
-    protected String nume;
+public class Persoana {
+    private String nume;
     protected Integer varsta;
-    protected String gen;
+    private String gen;
+
 
     public Persoana(String nume, Integer varsta, String gen){
         this.nume=nume;
@@ -11,7 +12,9 @@ public class Persoana{
         this.gen=gen;
     }
     protected void informatii(){
-        System.out.println("Nume: "+ nume + ", Varsta: "+ varsta);
+        System.out.println("Nume: "+ nume + ", Varsta: "+ varsta+ ", Gen: "+ gen);
     }
 
 }
+
+

@@ -1,37 +1,31 @@
-package proiect_pao;
+package proiect.pao;
 
 import java.util.Calendar;
 
 public class Card {
-    public String numar;
-    public Integer luna_expirare;
-    public Integer an_expirare;
 
-    public Card(String numar, Integer luna_expirare, Integer an_expirare){
+    private String numar;
+    private Integer lunaExpirare;
+    private Integer anExpirare;
+
+    public Card(String numar, Integer lunaExpirare, Integer anExpirare){
 
         this.numar=numar;
-        this.luna_expirare=luna_expirare;
-        this.an_expirare=an_expirare;
+        this.lunaExpirare=lunaExpirare;
+        this.anExpirare=anExpirare;
     }
-    public void Expirare(Integer luna_expirare, Integer an_expirare) {
+    public void verificaExpirare() {
 
         Calendar calendar = Calendar.getInstance();
         int luna = calendar.get(Calendar.MONTH);
         int an = calendar.get(Calendar.YEAR);
-        if (an_expirare < an) {
+        if (anExpirare < an) {
             System.out.println("Card expirat!");
 
-        } else if (luna_expirare < luna )
-                   if( an_expirare == an) {
-            System.out.println("Card expirat! A expirat anul acesta.");
-        }
+        } else if (lunaExpirare < luna )
+            if( anExpirare == an) {
+                System.out.println("Card expirat! A expirat anul acesta.");
+            }
     }
 
-
-
-
-
-
-    }
-
-
+}
