@@ -1,3 +1,4 @@
-339,20,2018-10-25,Intel,6700k,1151,4,4.2,4,8,14,no,64
-180,40,2018-10-25,Intel,6400,1151,2.7,3.3,4,4,14,yes,64
-370,30,2018-10-25,Intel,8700k,1151,3.7,4.7,6,12,14,no,128
+pret,stoc,datacumpararii,producator,numr,socket,frequency,turbofrequency,cores,threads,lithography,cpuCooler,maxmemory
+180,40,10/25/2018,Intel,6400k,1151,2.7,3.3,4,4,14,yes,64
+370,30,10/25/2018,Intel,8700k,1151,3.7,4.7,6,12,14,no,128
+339,20,10/25/2018,Intel,6700k,1151,4,4.2,4,8,14,no,64

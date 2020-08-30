@@ -1,3 +1,4 @@
-900,3,2018-02-20,G.Skill Trident Z,silver,quad-channel,3466 Mhz,64,1.35
-100,20,2019-03-10,Corsair Vengeance,black,dual-channel,2400Mhz,4,0.9
-140,10,2018-02-20,HyperX Predator,rgb,dual-channel,3200Mhz,16,2.5
+pret,stoc,dataCumpararii,producator,culoare,type,speed,size,voltage
+100,20,3/10/2019,Corsair Vengeance,black,dual-channel,2400Mhz,4,0.9
+140,10,2/20/2018,HyperX Predator,rgb,dual-channel,3200Mhz,16,2.5
+900,3,2/20/2018,G.Skill Trident Z,silver,quad-channel,3466 Mhz,64,1.35
